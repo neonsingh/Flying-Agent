@@ -1,0 +1,63 @@
+* {
+    -fx-font-family: Tahoma;
+}
+
+.root {
+    -fx-background-color: #FFF
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #6bbc76
+}
+
+.sub-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: #65617d
+}
+
+.btn {
+    -fx-font-size: 20px;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 5;
+    -fx-background-color: #6bbc76;
+    -fx-text-fill: #FFF;
+    -jfx-button-type: RAISED;
+    -fx-cursor: hand;
+}
+
+/* Start toast (snackbar) */
+
+.jfx-snackbar-content {
+    -fx-background-color: #FF3D22
+}
+.jfx-snackbar-toast {
+    -fx-text-fill: #FFF;
+    -fx-font-size: 18px;
+    -fx-font-family: Tahoma
+}
+
+/* End toast (snackbar) */
+
+/* Start List view */
+
+.jfx-list-cell {
+    -fx-font-size: 20px;
+}
+
+.jfx-list-cell:selected {
+    -fx-background-color: #6bbc76;
+}
+
+.jfx-list-cell:hover {
+    -fx-background-color: #6bbc76;
+}
+
+.jfx-list-view {
+    -fx-vertical-gap: 10;
+    -fx-background-insets: 0;
+    -fx-cell-vertical-margin: 10 0;
+}
+
+/* End List view */
